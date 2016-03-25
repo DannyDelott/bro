@@ -43,12 +43,12 @@ Packages names are derived by a scope, usually the author's username, and the re
 
 option | description
 ---|---
---save |
---save-dev |
---host | Begin hosting the package on your own Git repository hosting service
-[package-name] | Takes the form `scope/name` to identify the package
-[<clone-url>[#branch-name]] | Must end in `.git`. A branch can be specified with  `#
-[source] | Can be one of `github`, `gitlab`, or `bitbucket`. If none are specified, then the default in `.broconfig` will be used.
+`--save` |
+`--save-dev` |
+`--host` | Begin hosting the package on your own Git repository hosting service
+`[package-name]` | Takes the form `scope/name` to identify the package
+`[<clone-url>[#branch-name]]` | Must end in `.git`. A branch can be specified with  `#
+`[source]` | Can be one of `github`, `gitlab`, or `bitbucket`. If none are specified, then the default in `.broconfig` will be used.
 
 
 **Examples:**
