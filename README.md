@@ -41,15 +41,35 @@ Packages names are derived by a scope, usually the author's username, and the re
 
 **Options:**
 
-option | description
----|---
-`--save` |
-`--save-dev` |
-`--host` | Begin hosting the package on your own Git repository hosting service
-`[package-name]` | Takes the form `scope/name` to identify the package
-`[<clone-url>[#branch-name]]` | Must end in `.git`. A branch can be specified with  `#
-`[source]` | Can be one of `github`, `gitlab`, or `bitbucket`. If none are specified, then the default in `.broconfig` will be used.
+* `--save`
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TODO
+<br /><br />
+
+* `--save-dev`
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TODO
+<br /><br />
+
+* `--host`
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Begin hosting the package on your own Git repository hosting service
+<br /><br />
+
+* `[package-name]`
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Takes the form `scope/name` to identify the package
+<br /><br />
+
+* `[<clone-url>[#branch-name]]`
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Clone URL must end in `.git`. An optional branch can be specified with a `#`. Default is set to `master`.
+<br /><br />
+
+* `[source]`
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Can be one of `github`, `gitlab`, or `bitbucket`. If none are specified, then the default in `.broconfig` will be used.
+<br /><br />
 
 **Examples:**
 
@@ -57,11 +77,14 @@ option | description
 
 Clones [express](https://github.com/expressjs/express) as a submodule from github into the `node_modules/` folder.
 
+<br />
+
 `bro install --host expressjs/express github`
 
 Clones [express](https://github.com/expressjs/express) as a submodule from github into the `node_modules/` folder.
 
 Also, pushes the clone up as a new repository to the Git repository hosting service specified in `.broconfig`.
 
+---
 
 ## `bro uninstall [-options]`
