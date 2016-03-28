@@ -25,7 +25,11 @@ command | description
 [`bro install`](#bro-install) | Clone a package to your local `node_modules/` directory
 [`bro uninstall`](#bro-uninstall) | Delete a package from your local `node_modules/` directory
 
+---
+
 ## `bro init`
+
+---
 
 ## `bro install`
 
@@ -88,3 +92,5 @@ Also, pushes the clone up as a new repository to the Git repository hosting serv
 ---
 
 ## `bro uninstall [-options]`
+
+---
