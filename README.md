@@ -45,32 +45,32 @@ Packages names are derived by a scope, usually the author's username, and the re
 
 **Options:**
 
-* `--save`
+`--save`
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TODO
 <br /><br />
 
-* `--save-dev`
+`--save-dev`
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TODO
 <br /><br />
 
-* `--host`
+`--host`
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Begin hosting the package on your own Git repository hosting service
 <br /><br />
 
-* `[package-name]`
+`[package-name]`
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Takes the form `scope/name` to identify the package
 <br /><br />
 
-* `[<clone-url>[#branch-name]]`
+`[<clone-url>[#branch-name]]`
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Clone URL must end in `.git`. An optional branch can be specified with a `#`. Default is set to `master`.
 <br /><br />
 
-* `[source]`
+`[source]`
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Can be one of `github`, `gitlab`, or `bitbucket`. If none are specified, then the default in `.broconfig` will be used.
 <br /><br />
